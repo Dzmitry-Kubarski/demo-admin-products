@@ -16,7 +16,7 @@ const ListProducts = ({ className }: IProps) => {
     const [search, setSearch] = useState('')
 
     const debounced = useDebounce(search)
-    const [getAllProducts, { isError, data }] = useLazyGetAllProductsQuery()
+    const [getAllProducts, { isLoading, isError, data }] = useLazyGetAllProductsQuery()
 
     const currentParams = Object.fromEntries([...searchParams])
     let categoryRef = useRef(searchParams.get('category'))
@@ -41,6 +41,7 @@ const ListProducts = ({ className }: IProps) => {
         getAllProducts({ limit: 8, search, sort: '', filterByCategory: categoryRef.current || '' })
     }, [debounced])
 
+    if (isLoading) return <div className={classes.Loading}>Loading...</div>
     if (isError) return <div>Error...</div>
 
     if (!data?.length) {

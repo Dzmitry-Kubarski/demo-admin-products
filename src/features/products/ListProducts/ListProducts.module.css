@@ -33,6 +33,10 @@
     margin-right: 10px;
 }
 
+.Loading {
+    text-align: center;
+}
+
 @media only screen and (min-width: 1770px) {
 }
 
