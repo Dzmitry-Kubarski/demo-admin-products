@@ -78,7 +78,7 @@ const ListProducts = ({ className }: IProps) => {
                             { value: "men's clothing", label: 'mens' },
                             { value: 'jewelery', label: 'jewelery' }
                         ]}
-                        value={categoryRef.current}
+                        defaultValue={categoryRef.current}
                         clearable
                         onChange={(data) => onChangeFilter(data)}
                     />
