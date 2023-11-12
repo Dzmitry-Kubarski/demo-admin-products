@@ -1,0 +1,125 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 300;
+    color: #000;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    outline: none;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+    color: inherit;
+    outline: none;
+    border-radius: 0;
+    border: none;
+    appearance: none;
+    box-shadow: none;
+    font-family: inherit;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+button {
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 0;
+}
+
+menu {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+.enter-active {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.enter-done {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 1770px) {
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media only screen and (max-width: 767px) {
+}

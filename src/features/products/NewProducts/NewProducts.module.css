@@ -1,0 +1,64 @@
+.Title {
+    max-width: 200px;
+}
+
+.Desc {
+    max-width: 270px;
+}
+
+.Link {
+    color: var(--mantine-color-blue-filled);
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: #000;
+    }
+}
+
+.IconDelete {
+    width: 20px;
+    height: auto;
+
+    path {
+        fill: #fff;
+    }
+}
+
+.Dropdown {
+    text-align: center;
+
+    p {
+        margin-bottom: 16px;
+    }
+}
+
+.Error {
+    color: tomato;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.Empty {
+    text-align: center;
+}
+
+@media only screen and (min-width: 1770px) {
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media only screen and (max-width: 767px) {
+    .Wrap {
+        th,
+        td {
+            font-size: 10px;
+            line-height: 10px;
+        }
+
+        overflow-x: scroll;
+    }
+}

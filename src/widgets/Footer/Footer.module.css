@@ -1,0 +1,40 @@
+.Wrap {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 16px;
+    margin-top: auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.Text {
+    font-size: 14px;
+    line-height: 14px;
+    opacity: 0.5;
+}
+
+.Author {
+    position: relative;
+    font-size: 14px;
+    line-height: 14px;
+    opacity: 0.5;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+        height: 1px;
+        width: 100%;
+        background-color: #000;
+        transition: all 0.3s ease;
+    }
+
+    &:hover {
+        &::after {
+            opacity: 0;
+        }
+    }
+}

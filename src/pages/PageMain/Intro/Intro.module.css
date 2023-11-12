@@ -1,0 +1,27 @@
+.Section {
+    padding-top: 30px;
+}
+
+.Title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Desc {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto 30px auto;
+}
+
+.Link {
+    width: fit-content;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}

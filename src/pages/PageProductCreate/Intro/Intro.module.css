@@ -1,0 +1,32 @@
+.Section {
+    padding-top: 30px;
+
+    .Title {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+}
+
+.LinkBack {
+    display: block;
+    width: fit-content;
+    color: var(--mantine-color-blue-filled);
+    margin: 0 auto 30px auto;
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: #000;
+    }
+}
+
+.Success {
+    color: green;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.Error {
+    color: tomato;
+    text-align: center;
+    margin-top: 16px;
+}

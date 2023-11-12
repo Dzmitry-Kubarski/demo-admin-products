@@ -1,0 +1,14 @@
+.Wrap {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    max-width: 1320px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+    .Wrap {
+        padding: 0 10px;
+    }
+}

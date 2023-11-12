@@ -1,0 +1,22 @@
+.Section {
+    padding-top: 30px;
+}
+
+.Title {
+    text-align: center;
+    color: tomato;
+    margin-bottom: 30px;
+}
+
+.Link {
+    display: block;
+    width: fit-content;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}

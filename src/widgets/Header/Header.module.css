@@ -1,0 +1,64 @@
+.Wrap {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 10px 12px rgba(134, 134, 220, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+
+    padding: 10px 16px;
+}
+
+.Logo {
+    width: 40px;
+    height: 40px;
+
+    svg {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.Links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+    a {
+        transition: all 0.3s ease;
+
+        &:hover {
+            opacity: 0.5;
+        }
+
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+}
+
+.Btn {
+    margin-left: 16px;
+}
+
+@media only screen and (min-width: 1770px) {
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media only screen and (max-width: 767px) {
+    .Links {
+        a {
+            font-size: 14px;
+            line-height: 14px;
+
+            &:not(:last-child) {
+                margin-right: 16px;
+            }
+        }
+    }
+}
